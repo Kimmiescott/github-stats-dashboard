@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Info</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+  <script defer src="app.js"></script> <!-- Link to JavaScript file -->
+</head>
+<body>
+  <h1>GitHub User Information</h1>
+
+  <!-- Input form to fetch user info and repos -->
+  <form id="userForm">
+    <label for="username">Enter GitHub Username:</label>
+    <input type="text" id="username" name="username" required>
+    <button type="submit">Fetch User Info</button>
+  </form>
+
+  <!-- Container to hold both user info and repos side by side -->
+  <div class="container">
+    <!-- Section for user information (left) -->
+    <div id="userInfo" class="user-info"></div>
+
+    <!-- Section for repositories (right) -->
+    <div class="repos">
+      <h2>Repositories:</h2>
+      <ul id="reposList"></ul>
+    </div>
+  </div>
+</body>
+</html>

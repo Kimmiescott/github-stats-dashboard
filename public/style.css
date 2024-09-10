@@ -1,0 +1,116 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  /* Styles for the heading */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #444;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container to display user info and repositories side by side */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* User Info section (left) */
+  .user-info {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 40%;
+    border-radius: 8px;
+  }
+  
+  .user-info img {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    max-width: 100px;
+  }
+  
+  .user-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Repositories section (right) */
+  .repos {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 55%;
+    border-radius: 8px;
+  }
+  
+  ul#reposList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul#reposList li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  ul#reposList li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  ul#reposList li a:hover {
+    color: #0056b3;
+  }
+  
+  ul#reposList li p {
+    margin: 5px 0;
+  }
+  
