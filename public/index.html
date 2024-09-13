@@ -8,7 +8,12 @@
   <script defer src="app.js"></script> <!-- Link to JavaScript file -->
 </head>
 <body>
-  <h1>GitHub User Information</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+  <h1>Welcome To GitHub Statistics Dashboard</h1>
 
   <!-- Input form to fetch user info and repos -->
   <form id="userForm">
@@ -17,15 +22,22 @@
     <button type="submit">Fetch User Info</button>
   </form>
 
+  <div id="loading" style="display: none;">
+    <h2>Loading...</h2>
+  </div>
+
   <!-- Container to hold both user info and repos side by side -->
   <div class="container">
     <!-- Section for user information (left) -->
-    <div id="userInfo" class="user-info"></div>
+    <div class="user-info-container" id="userInfoContainer">
+      <h3 id="userInfoLabel" style="display: none;">User Profile:</h3>
+      <div id="userInfo" class="user-info"></div>
+    </div>
 
     <!-- Section for repositories (right) -->
-    <div class="repos">
-      <h2>Repositories:</h2>
-      <ul id="reposList"></ul>
+    <div class="repos-container" id="reposContainer">
+      <h3 id="reposLabel" style="display: none;">Repositories:</h3>
+      <ul id="reposList" class="repos"></ul>
     </div>
   </div>
 </body>
