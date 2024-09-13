@@ -39,7 +39,7 @@ document.getElementById('userForm').addEventListener('submit', async function(ev
         listItem.innerHTML = `
           <a href="${repo.html_url}" target="_blank">${repo.name}</a>
           <p><strong>Description:</strong> ${repo.description || 'No description'}</p>
-          <p><strong>Stars:</strong> ${repo.stargazers_count} | <strong>Language:</strong> ${repo.language || 'N/A'}</p>
+          <p><strong>Stars:</strong> ${repo.stargazers_count} | <strong>Forks:</strong> ${repo.forks_count} | <strong>Language:</strong> ${repo.language || 'N/A'}</p>
         `;
         reposList.appendChild(listItem);
       });
