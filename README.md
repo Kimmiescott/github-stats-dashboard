@@ -54,5 +54,5 @@ Contributions are welcome! If you have ideas to improve the project or find any 
 - [OctoProfile](https://github.com/bchiang7/octoprofile). 
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Kimmiescott/github-stats-dashboard/releases/tag/v1.0.0) file for more details.
 
