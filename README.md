@@ -53,6 +53,6 @@ Contributions are welcome! If you have ideas to improve the project or find any 
 - [GitHub Insights](https://github.com/kb22/GitHub-User-Insights-using-API).
 - [OctoProfile](https://github.com/bchiang7/octoprofile). 
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
