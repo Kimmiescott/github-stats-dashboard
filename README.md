@@ -2,9 +2,9 @@
 ## Introduction
 The GitHub Statistics Dashboard is a web application designed to help developers easily visualize key metrics from their GitHub profiles. Users can view data such as repository information, stars, forks, followers, and more, all in one place. This project was built using React.js for the frontend, Node.js with Express.js for the backend, and MongoDB for data storage. It integrates with the GitHub API to fetch and display user data, helping developers better understand their GitHub presence.
 
--**Deployed Site:** [GitHub Statistics Dashboard](https://github-stats-dashboard-2.onrender.com/).
--**Blog Article:** [Final Project Blog](https://dev.to/kimberly_scott/github-statistics-dashboard-visualizing-developer-data-efficiently-35h0).
--**Author LinkedIn:** [LinkedIn - Kimberly Scott Natalia](https://www.linkedin.com/in/kim-natalia-scott?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
+- **Deployed Site:** [GitHub Statistics Dashboard](https://github-stats-dashboard-2.onrender.com/).
+- **Blog Article:** [Final Project Blog](https://dev.to/kimberly_scott/github-statistics-dashboard-visualizing-developer-data-efficiently-35h0).
+- **Author LinkedIn:** [LinkedIn - Kimberly Scott Natalia](https://www.linkedin.com/in/kim-natalia-scott?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
 
 ## Installation
 To run this project locally, follow these steps:
