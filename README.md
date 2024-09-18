@@ -56,7 +56,8 @@ Contributions are welcome! If you have ideas to improve the project or find any 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Kimmiescott/github-stats-dashboard/releases/tag/v1.0.0) file for more details.
 
-## Screenshot![Screenshot from 2024-09-18 16-18-05](https://github.com/user-attachments/assets/0b74dd9d-bef7-430c-aeab-81671e8721b9)
+## Screenshot
+![Screenshot from 2024-09-18 16-18-05](https://github.com/user-attachments/assets/0b74dd9d-bef7-430c-aeab-81671e8721b9)
 
 
 
