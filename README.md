@@ -10,7 +10,7 @@ The GitHub Statistics Dashboard is a web application designed to help developers
 To run this project locally, follow these steps:
 
 **1. Clone the repository**
-`git clone https://github.com/yourusername/github-stats-dashboard.git`
+`git clone https://github.com/Kimmiescott/github-stats-dashboard.git`
 
 **2. Navigate to the project directory**
 `cd github-stats-dashboard`
